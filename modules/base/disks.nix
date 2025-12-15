@@ -11,11 +11,11 @@
       enable = mkBool false;
       luks = {
         enable = mkBool false;
-        device = mkStr "";
+        device = mkStr null;
         name = mkStr "root";
       };
       boot = {
-        device = mkStr "";
+        device = mkStr null;
         fsType = mkStr "vfat";
         options = mkList lib.types.str [
           "fmask=0022"

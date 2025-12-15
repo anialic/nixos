@@ -10,8 +10,8 @@
   modules.cli = {
     options.git = {
       enable = mkEnable "git";
-      userName = mkStr "";
-      userEmail = mkStr "";
+      userName = mkStr null;
+      userEmail = mkStr null;
       defaultBranch = mkStr "main";
       lfs = mkBool true;
       signing = {

@@ -23,7 +23,7 @@
               lib.types.either lib.types.str (
                 lib.types.submodule {
                   options = {
-                    directory = mkStr "";
+                    directory = mkStr null;
                     mode = mkStr "0755";
                   };
                 }
