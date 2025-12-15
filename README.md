@@ -33,7 +33,7 @@
 | `boot.tmp.tmpfsHugeMemoryPages` | string | `"advise"` |
 | `boot.tmp.tmpfsSize` | null or string | - |
 | `boot.tmp.useTmpfs` | boolean | `false` |
-| `disks.boot.device` | string | `""` |
+| `disks.boot.device` | null or string | - |
 | `disks.boot.fsType` | string | `"vfat"` |
 | `disks.boot.options` | list of string | `["fmask=0022","dmask=0022"]` |
 | `disks.btrfs.device` | string | `"/dev/mapper/root"` |
@@ -43,7 +43,7 @@
 | `disks.btrfs.subvolumes.swap` | boolean | `true` |
 | `disks.btrfs.subvolumes.tmp` | boolean | `true` |
 | `disks.enable` | boolean | `false` |
-| `disks.luks.device` | string | `""` |
+| `disks.luks.device` | null or string | - |
 | `disks.luks.enable` | boolean | `false` |
 | `disks.luks.name` | string | `"root"` |
 | `disks.root.tmpfsSize` | string | `"2G"` |
@@ -96,8 +96,8 @@
 | `git.signing.enable` | boolean | `false` |
 | `git.signing.format` | string | `"ssh"` |
 | `git.signing.key` | string | `"~/.ssh/id_ed25519"` |
-| `git.userEmail` | string | `""` |
-| `git.userName` | string | `""` |
+| `git.userEmail` | null or string | - |
+| `git.userName` | null or string | - |
 | `neovim.background` | string | `"soft"` |
 | `neovim.colorscheme` | string | `"everforest"` |
 | `neovim.defaultEditor` | boolean | `true` |
@@ -174,7 +174,7 @@
 | `firefox.proxy.socksProxy` | string | `"127.0.0.1:1080"` |
 | `firefox.proxy.socksVersion` | signed integer | `5` |
 | `firefox.proxy.useProxyForDNS` | boolean | `true` |
-| `foot.alpha` | floating point number | `0.65` |
+| `foot.alpha` | null or floating point number | - |
 | `foot.enable` | boolean | `false` |
 | `foot.font` | string | `"JetBrainsMono Nerd Font:size=8"` |
 | `foot.padding` | string | `"10x10 center"` |
