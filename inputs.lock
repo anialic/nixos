@@ -1,0 +1,7 @@
+{
+  "nixpkgs": { "url": "https://github.com/NixOS/nixpkgs/archive/nixos-unstable-small.tar.gz", "sha256": "199zzqn5rfz51gi1admazxri0g7b4icjlbg5qizq3zvi6gxa3pkr" },
+  "lanzaboote": { "url": "https://github.com/nix-community/lanzaboote/archive/master.tar.gz", "sha256": "1pj087wgdziq2rda7kcdjh9i9fpxpgq80hxbdxx7mishhx9la27b" },
+  "disko": { "url": "https://github.com/nix-community/disko/archive/master.tar.gz", "sha256": "0sxb55mla2ghcn5sqpclvk3p3m7j8sfdx49acidw7fm7a5d50gk0" },
+  "nixy": { "url": "https://github.com/anialic/nixy/archive/main.tar.gz", "sha256": "0i68a79mxrkqgqincj0l2qwb3kz1dnvpy3ya6fq5lx4cvzwycqrc" },
+  "apple-silicon-support": { "url": "https://github.com/nix-community/nixos-apple-silicon/archive/main.tar.gz", "sha256": "05j8p1w3lwcyl6r0dh8b173pvwxl0cls2gq6sm1kdh83k6yaz1mq" }
+}
