@@ -1,4 +1,9 @@
-{ mkList, mkEnable, lib, ... }:
+{
+  mkList,
+  mkEnable,
+  lib,
+  ...
+}:
 {
   modules.desktop = {
     options.fonts = {

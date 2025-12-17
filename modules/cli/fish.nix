@@ -1,4 +1,9 @@
-{ mkStr, mkEnable, lib, ... }:
+{
+  mkStr,
+  mkEnable,
+  lib,
+  ...
+}:
 {
   modules.cli = {
     options.fish = {

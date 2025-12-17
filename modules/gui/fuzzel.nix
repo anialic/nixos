@@ -1,4 +1,9 @@
-{ mkInt, mkEnable, lib, ... }:
+{
+  mkInt,
+  mkEnable,
+  lib,
+  ...
+}:
 {
   modules.gui = {
     options.fuzzel = {
