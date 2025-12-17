@@ -62,7 +62,7 @@
       enable = true;
       fish = {
         enable = true;
-        flakePath = "/home/alice/Projects/flakes";
+        flakePath = "/home/alice/Projects/nixos";
       };
 
       git = {

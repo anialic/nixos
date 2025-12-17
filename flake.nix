@@ -20,7 +20,7 @@
       ];
       args = {
         inherit inputs;
-        resource = ./_resource;
+        resource = ./resource;
       };
     };
 }
